@@ -1,0 +1,48 @@
+.contenedorInput {
+    width: 400px;
+    position: relative;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.container {
+display: flex;
+justify-content: center;
+justify-items: center;
+padding-top: 2%;
+   
+}
+.btn {
+    color: black;
+    width: 50%;
+    height: 50%;
+    background-color: #F6FF29;
+    border-radius: 20px;
+    border: 2px solid black;
+   
+}
+input {
+    width: 80%;
+    box-shadow: 4px 5px 4px rgb(216, 213, 213);
+}
+select{
+    width: 80%;
+    box-shadow: 4px 5px 4px rgb(216, 213, 213);
+}
+h1{
+    margin-left: 8%;
+}
+.logo{
+    margin-left: 20%;
+}
+span{
+    box-shadow: 4px 5px 4px rgb(216, 213, 213);   
+}
+
+
+
+
+

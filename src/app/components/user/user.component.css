@@ -1,0 +1,38 @@
+.contenedor {
+  position: relative;
+  margin-top: 3%;
+  width: 400px;
+  padding-bottom: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 5%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.btn {
+  color: black;
+  width: 50%;
+  height: 50%;
+  background-color: yellow;
+  border-radius: 20px;
+  border: 2px solid black;
+
+}
+
+input {
+  box-shadow: 4px 5px 4px rgb(216, 213, 213);
+}
+
+select {
+  box-shadow: 4px 5px 4px rgb(216, 213, 213);
+}
+span {
+  box-shadow: 4px 5px 4px rgb(216, 213, 213);
+}

@@ -1,0 +1,44 @@
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Banco</a>
+      <a href="" routerLink="/"><i class="fa-solid fa-house"></i></a>
+    </div>
+  </nav>
+<div class="container  ">
+    <div class="contenedor">
+
+        <h3 class="text-center mb-3">Datos Personales</h3>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon"><i class="fa-solid fa-address-card"></i></span>
+            
+            <select  [(ngModel)]="agregarCliente.tipo_documento" class="form-select form-select-lg " aria-label=".form-select-lg example">
+                <option value="cc">Cédula de ciudadania</option>
+                <option value="ce">Cédula de extrangeria</option>
+                <option value="nit">NIT</option>
+                <option value="passport">Pasaporte(Digita sólo números)</option>
+                <option value="ti">Tarjeta de identidad </option>
+              </select>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-keyboard"></i></span>
+            <input [(ngModel)]="agregarCliente.id_cliente" class="form-control form-control-lg"
+                placeholder="Número de documento" type="number" name="id_cliente">
+        </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
+                    <input [(ngModel)]="agregarCliente.nom_cliente" class="form-control form-control-lg"
+                        placeholder="Nombre" type="text" name="nom_cliente">
+                </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-phone"></i></span>
+                    <input [(ngModel)]="agregarCliente.tel_cliente" class="form-control form-control-lg"
+                        placeholder="Teléfono" type="number" name="tel_cliente">
+                        </div>
+
+                    <div class="mt-4" style="margin-left: 30% ;">
+                <button (click)="addClient()" type="button" class="btn">Guardar</button>
+                </div>
+            </div>
+        </div>

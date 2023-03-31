@@ -1,0 +1,40 @@
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><strong>My Banco</strong></a> 
+      <h6 class="estado"><i class="fa-solid fa-user"></i> {{name_agent}} {{last_name_agent}} <i class="fa-solid fa-minus"></i><button (click)="statusAgent()" class="btnEstado"> <h6>{{status_agent}}</h6></button></h6>
+      <a href="" routerLink="/login"> <span><i class="fa-solid fa-right-to-bracket"></i></span></a>
+    </div>
+  </nav>
+  
+  <div class="containerFirst">
+   
+      <div class="containerSecond">
+      </div>
+      <div class="containerThird">
+          <div class="turno">
+  
+              <table class="table border">
+                  <thead class="table-secondary">
+                    <tr>
+                      <th scope="col">Usuario</th>
+                      <th scope="col">Turno</th>
+                      <th scope="col">Estado</th>
+                      <th scope="col">Opción</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let list of list_turns">
+                      <th>{{list.name_user}} {{list.last_name_user}}</th>
+                      <th>{{list.name_turn}}</th>
+                      <th>{{list.status_turn}}</th>
+                      <th><button (click)="finishTurn(list.id_turn)" class="btn ">Finalizar</button></th>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+               
+  
+      </div>
+      </div>
+  </div>
+  

@@ -1,0 +1,8 @@
+{
+    "/api/*":{
+        "target":"https://purring-wholesale-vase.glitch.me",
+        "secure":"false",
+        "logLevel":"debug"
+    }
+   
+}

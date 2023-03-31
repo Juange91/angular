@@ -1,0 +1,40 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 3%;
+}
+.login{
+   padding-bottom: 5%;
+   padding-left: 2%;
+   padding-right: 2%;
+    position: relative;
+    width: 35%;
+    background-color: white;
+    border-radius: 20px;
+   
+}
+
+.btn {
+    color: black;
+    width: 70%;
+    background-color: #F6FF29;
+    border-radius: 20px;
+    border: 2px solid black;
+   
+   
+}
+.logo{
+    margin-left: 15%;
+}
+input {
+    box-shadow: 4px 5px 4px rgb(216, 213, 213);
+  }
+  
+  select {
+    box-shadow: 4px 5px 4px rgb(216, 213, 213);
+  }
+  span {
+    box-shadow: 4px 5px 4px rgb(216, 213, 213);
+  }

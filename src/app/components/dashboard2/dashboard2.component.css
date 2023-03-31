@@ -1,0 +1,35 @@
+.containerSecond {
+    padding-top: 10%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.containerThird {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 5%;
+}
+th {
+    padding: 10px 50px 0 50px;
+
+}
+.cont {
+    padding-top: 1%;
+    background-color: white;
+    margin-left: 1rem;
+    width: 15rem;
+    height: 6rem;
+    border: 1px solid rgb(179, 172, 172);
+    border-radius: 5px;
+    box-shadow: 4px 0px 4px 2px  rgb(179, 172, 172) ;
+}
+span{
+   margin-left: 8%;
+   margin-top: 7%;
+}
+h6{
+    margin-left: 10%;
+}

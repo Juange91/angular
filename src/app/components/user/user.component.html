@@ -1,0 +1,49 @@
+<nav class="navbar bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><strong>My Banco</strong></a>    
+    
+      <a href="" routerLink="/"><i class="fa-solid fa-house"></i></a>
+    </div>
+  </nav>
+<div class="container  ">
+    <div class="contenedor">
+
+        <h3 class="text-center mb-3">Datos Personales</h3>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon"><i class="fa-solid fa-address-card"></i></span>
+            
+            <select  [(ngModel)]="dataUser.type_document" class="form-select form-select-lg " aria-label=".form-select-lg example">
+                <option value="cc">Cédula de ciudadania</option>
+                <option value="ce">Cédula de extrangeria</option>
+                <option value="nit">NIT</option>
+                <option value="passport">Pasaporte(Digita sólo números)</option>
+                <option value="ti">Tarjeta de identidad </option>
+              </select>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-keyboard"></i></span>
+            <input [(ngModel)]="dataUser.id_user" class="form-control form-control-lg"
+                placeholder="Número de documento" type="number" name="id_user">
+        </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
+                    <input [(ngModel)]="dataUser.name_user" class="form-control form-control-lg"
+                        placeholder="Nombre" type="text" name="name_user">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
+                    <input [(ngModel)]="dataUser.last_name_user" class="form-control form-control-lg"
+                        placeholder="Apellido" type="text" name="last_name_user">
+                </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-phone"></i></span>
+                    <input [(ngModel)]="dataUser.phone_user" class="form-control form-control-lg"
+                        placeholder="Teléfono" type="number" name="phone_user">
+                        </div>
+
+                    <div class="mt-4" style="margin-left: 30% ;">
+                <button (click)="addUser()" type="button" class="btn">Guardar</button>
+                </div>
+            </div>
+        </div>

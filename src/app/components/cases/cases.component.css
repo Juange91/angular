@@ -1,0 +1,29 @@
+.contenedor {
+    width: 500px;
+    position: relative;
+    margin-top: 3%;
+}
+.containerFirst{
+    position: relative;
+}
+
+.containerSecond {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+h4 {
+    color: white;
+}
+
+.cont {
+    padding-top: 1%;
+    background-color: white;
+    margin-left: 1rem;
+    width: 15rem;
+    height: 6rem;
+    border: 1px solid rgb(179, 172, 172);
+    border-radius: 5px;
+    box-shadow: 4px 0px 4px 2px  rgb(179, 172, 172) ;
+}
